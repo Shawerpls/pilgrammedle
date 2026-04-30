@@ -1,0 +1,54 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+hr {
+    width: 500px;
+}
+
+#title {
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+#board {
+    width: 350px;
+    height: 420px;
+    margin: 0 auto;
+    margin-top: 3px;
+    display:flex;
+    flex-wrap: wrap;
+}
+
+.tile {
+    border: 2px solid lightgray;
+    width: 60px;
+    height: 60px;
+    margin: 2.5px;
+
+    color: black;
+    font-size: 36px;
+    font-weight: bold;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.correct {
+    background-color: green;
+    color: white;
+    border: white;
+}
+
+.present {
+    background-color: rgb(206, 206, 4);
+    color: white;
+    border: white;
+}
+
+.absent {
+    background: gray;
+    color: white;
+    border: white;
+}
