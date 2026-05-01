@@ -21,6 +21,11 @@ hr {
     flex-wrap: wrap;
 }
 
+#temp {
+    background-color: rgb(51, 51, 51);
+    color: white;
+}
+
 .tile {
     border: 2px solid lightgray;
     width: 60px;
@@ -28,8 +33,9 @@ hr {
     margin: 2.5px;
 
     color: black;
-    font-size: 36px;
+    font-size: 10px;
     font-weight: bold;
+    font-display: auto;
     display:flex;
     justify-content: center;
     align-items: center;
