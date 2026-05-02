@@ -196,6 +196,12 @@ function initialize() {
 }
 
 function submitGuess() {
+    if (gameOver || currentGuess == guessLimit) {
+        gameOver = true;
+        alert("The answer was " + currentWeapon[0] + " LOSERRRRRR");
+        return;
+    }
+    
     let userGuess = document.getElementById("weaponSubmit").value;
     let weaponGuess = weapons[userGuess];
     console.log(userGuess);
