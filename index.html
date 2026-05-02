@@ -12,13 +12,11 @@
         <h1 id="title">PILGRAMMEDLE</h1>
         <hr>
         <br>
-        <input id='weaponSubmit' type='text' name="weapons" list="weaponNames" />
-        <datalist id="weaponNames">
-            <option value="Prime Brand">Prime Brand</option>
-            <option value="Old Sword">Old Sword</option>
-            <option value="Coffinhilt">Coffinhilt</option>
-            <option value="Gligsword">Gligsword</option>
-        </datalist>
+        <div id="wpnBoard">
+            <select id="weaponSubmit">
+            </select>
+            <button id="submitWpn" type="submit" onclick="submitGuess()">Submit</button>
+        </div>
         <br>
         <div id="board">
             <span id="temp" class="tile">Name</span>
