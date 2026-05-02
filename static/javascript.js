@@ -226,10 +226,10 @@ function submitGuess() {
                 correctCounter += 1;
                 currTile.innerText = weaponGuess[c];
                 currTile.classList.add("correct");
-            } else if (weaponGuess > currentWeapon[c]) {
+            } else if (weaponGuess[c] > currentWeapon[c]) {
                 currTile.innerText = weaponGuess[c].toString() + " \u2191";
                 currTile.classList.add("absent");
-            } else if (weaponGuess < currentWeapon[c]) {
+            } else if (weaponGuess[c] < currentWeapon[c]) {
                 currTile.innerText = weaponGuess[c].toString() + " \u2193";
                 currTile.classList.add("absent");
             }
