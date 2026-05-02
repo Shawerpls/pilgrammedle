@@ -45,7 +45,7 @@ const weapons = {
     EyeVuvuzela: ["Eye Vuvuzela", "None", "Mage", "Summoner", "Desert"],
     Icedagger: ["Icedagger", "Frost", "Melee", "Dagger", "Mountain"],
     IcicleRod: ["Icicle Rod", "Frost", "Mage", "Staff", "Mountain"],
-    MagmaShackles: ["Magma Shackles", "Fire", "Melee", "Fist", "Volcano"],
+    MagmaShackles: ["Magma Shackles", "None", "Melee", "Fist", "Volcano"],
     MagmaShotgun: ["Magma Shotgun", "Fire", "Ranged", "Gun", "Volcano"],
     ManaBlade: ["Mana Blade", "Magic", "Melee", "Sword", "Swamp"],
     MithrilBow: ["Mithril Bow", "None", "Ranged", "Bow", "Mountain"],
