@@ -166,7 +166,7 @@ function initialize() {
         alert("The answer was " + console.log(currentWeapon[0]) + " LOSERRRRRR");
         return;
     }
-    console.log(currentWeapon);
+    // Use console.log(currentWeapon) to reveal the answer
 
     for (let r = 0;r<=guessLimit;r++) {
         for (let c=0;c<=hints;c++) {
