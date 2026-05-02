@@ -162,7 +162,10 @@ window.onload = function() {
 }
 
 function initialize() {
-    if (gameOver) return;
+    if (gameOver) {
+        alert("The answer was " + console.log(currentWeapon[0]) + " LOSERRRRRR");
+        return;
+    }
     console.log(currentWeapon);
 
     for (let r = 0;r<=guessLimit;r++) {
