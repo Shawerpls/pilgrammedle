@@ -164,7 +164,7 @@ window.onload = function() {
 function initialize() {
     if (gameOver || currentGuess == guessLimit) {
         gameOver = true;
-        alert("The answer was " + console.log(currentWeapon[0]) + " LOSERRRRRR");
+        alert("The answer was " + currentWeapon[0] + " LOSERRRRRR");
         return;
     }
     // Use console.log(currentWeapon) to reveal the answer
