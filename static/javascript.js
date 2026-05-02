@@ -1,4 +1,4 @@
-var guessLimit = 10; // Guesses limit/max
+var guessLimit = 6; // Guesses limit/max
 var hints = 4; // Categories limit/max
 var categories = ['Name','Elem','Atype','Wtype','Origin']; // Categories for guessing
 
