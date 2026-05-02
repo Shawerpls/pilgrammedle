@@ -162,7 +162,8 @@ window.onload = function() {
 }
 
 function initialize() {
-    if (gameOver) {
+    if (gameOver || currentGuess == guessLimit) {
+        gameOver = true;
         alert("The answer was " + console.log(currentWeapon[0]) + " LOSERRRRRR");
         return;
     }
