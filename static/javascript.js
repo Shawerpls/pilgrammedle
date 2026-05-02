@@ -16,7 +16,7 @@ const weapons = {
     WickedJunkSpellbook: ["Wicked Junk Spellbook", "Metal", "Mage", "Staff", "Mystery Store"],
     BronzeGreatsword: ["Bronze Greatsword", "Metal", "Melee", "Greatsword", "Praire"],
     BronzeSword: ["Bronze Sword", "Metal", "Melee", "Sword", "Praire"],
-    MagicBranch: ["Magic Branch", "Magic", "Mage", "Wand", "Praire"],
+    MagicBranch: ["Magic Branch", "None", "Mage", "Wand", "Praire"],
     OldSword: ["Old Sword", "Metal", "Melee", "Sword", "Praire"],
     WoodenDagger: ["Wooden Dagger", "None", "Melee", "Dagger", "Praire"],
     Bosca: ["Bosca", "None", "Ranged", "Gun", "Suslands"],
