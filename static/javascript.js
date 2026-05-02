@@ -57,7 +57,7 @@ const weapons = {
     SerpentScepter: ["Serpent Scepter", "Venom", "Mage", "Staff", "Desert"],
     SilverRepeater: ["Silver Repeater", "None", "Ranged", "Crossbow", "Mourning Hallow"],
     SmartStemStaff: ["Smart Stem Staff", "None", "Mage", "Summoner", "Cobalt Cavern"],
-    SquidBlaster: ["Squid Blaster", "None", "Mage", "Wand", "Big Bay"],
+    SquidBlaster: ["Squid Blaster", "None", "Mage", "Wand", "Cloud City"],
     AirGun: ["Air Gun", "None", "Ranged", "Gun", "Cloud City"],
     Anchor: ["Anchor", "Water", "Melee", "Maul", "Western Sea"],
     BlackStiletto: ["Black Stiletto", "None", "Melee", "Dagger", "Strange Chasm"],
