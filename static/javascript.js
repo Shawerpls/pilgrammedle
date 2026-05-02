@@ -229,7 +229,7 @@ function submitGuess() {
             } else if (weaponGuess > currentWeapon[c]) {
                 currTile.innerText = weaponGuess[c].toString() + " \u2191";
                 currTile.classList.add("absent");
-            } else {
+            } else if (weaponGuess < currentWeapon[c]) {
                 currTile.innerText = weaponGuess[c].toString() + " \u2193";
                 currTile.classList.add("absent");
             }
