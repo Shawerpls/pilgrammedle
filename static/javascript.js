@@ -227,10 +227,10 @@ function submitGuess() {
                 currTile.innerText = weaponGuess[c];
                 currTile.classList.add("correct");
             } else if (weaponGuess[c] > currentWeapon[c]) {
-                currTile.innerText = weaponGuess[c].toString() + " \u2193";
+                currTile.innerText = weaponGuess[c].toString() + " \u2191";
                 currTile.classList.add("absent");
             } else if (weaponGuess[c] < currentWeapon[c]) {
-                currTile.innerText = weaponGuess[c].toString() + " \u2191";
+                currTile.innerText = weaponGuess[c].toString() + " \u2193";
                 currTile.classList.add("absent");
             }
         }
