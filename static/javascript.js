@@ -179,7 +179,7 @@ function initialize() {
         }
     }
 
-    Object.keys(weapons).forEach(assignOptions);
+    Object.keys(weapons).sort().forEach(assignOptions);
     function assignOptions(wpnValue) {
         let optionList = document.getElementById('weaponSubmit');
         let newOpt = document.createElement('option');
