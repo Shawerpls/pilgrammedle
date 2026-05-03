@@ -61,7 +61,7 @@ const weapons = {
     AirGun: ["Air Gun", "None", 10, "Gun", "Cloud City"],
     Anchor: ["Anchor", "Water", 43, "Maul", "Western Sea"],
     BlackStiletto: ["Black Stiletto", "None", 24, "Dagger", "Strange Chasm"],
-    Blunderbuss: ["Blunderbuss", "None", 13, "Gun", "Big Bay"],
+    Blunderbuss: ["Blunderbuss", "None", 13, "Gun", "Suslands"],
     Boulderblades: ["Boulderblades", "Earth", 20, "Sword", "Strange Chasm"],
     BrassBow: ["Brass Bow", "None", 26, "Bow", "Suslands"],
     Cannon: ["Cannon", "None", 65, "Gun", "Observatory"],
